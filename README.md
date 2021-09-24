@@ -39,19 +39,19 @@ Run hypera_select.py script informing the path to your dataset. E.g.
 The program will output a set of values. E.g:
 
     {'Dense': 2, 'Dense_1': 0, 'Dense_2': 2, 'Dropout': 0.002306486013380127, 'Dropout_1': 0.129745456686155, 'Dropout_2': 0.4482920922182265, 'Dropout_3': 0, 'Dropout_4': 0.5384236484916557, 'activation': 0, 'activation_1': 1, 'activation_2': 2, 'activation_3': 1, 'batch_size': 0, 'optimizer': 0}
-
-You can update the neural_network.py file with this new hyper-parameters values.
+    
+You can update the neural_network.py file with these new hyper-parameters values.
 More about how it works on: https://github.com/maxpumperla/hypera
 
 ### Running a new system prediction:
 
-After running the neural network step, a model will be saved for future analises.
+After running the neural network step, a model will be saved for future analysis.
 
 You can use this model for evaluating how a configuration of a new PV System. Just run the script new_system_prediction.py passing as param the dataset location. E.g.
 
     python3 new_system_prediction.py ./data/join/new_system.csv
 
- This dataset needs to have the same features as the ones used for training the model. You can create a configuration and combine it with the weather information of a PV system used previously. Check the data folder.
+ This dataset needs to have the same features like the ones used for training the model. You can create a configuration and combine it with the weather information of a PV system used previously. Check the data folder.
 
  The script will output a graph depicting how the created system would behave along the time. E.g.
 
