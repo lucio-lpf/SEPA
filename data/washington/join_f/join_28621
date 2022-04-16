@@ -1,0 +1,6 @@
+System Size,Number Of Panels,Panel Power,Number Of Inverters,Inverter Power,date,totalSnow_cm,mintempC,avgtempC,uvIndex,WindChillC,cloudcover,winddirDegree,WindGustKmph,HeatIndexC,precipMM,FeelsLikeC,visibility,humidity,pressure,DewPointC,windspeedKmph,maxtempC
+8320,32,260,2,7500,225,0.000,21,34,9,34,14,157,13,36,0.000,36,10,24,1011,7,21,45
+8320,32,260,2,7500,226,0.000,21,35,9,35,24,170,10,36,0.000,36,10,25,1012,8,9,45
+8320,32,260,2,7500,227,0.000,24,36,9,36,4,220,12,37,0.000,37,10,23,1009,8,13,45
+8320,32,260,2,7500,228,0.000,21,33,9,33,0,156,13,34,0.000,34,10,28,1006,8,17,42
+8320,32,260,2,7500,229,0.000,19,32,8,32,0,175,14,32,0.000,32,10,27,1006,7,22,41
