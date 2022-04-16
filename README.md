@@ -24,9 +24,9 @@ Our project can be used for:
 ## Using it:
 
 ### Running the Neural Network:
-Simply run the neural_network.py script informing the path to your dataset. E.g.
+Simply run the neural_network.py script informing the path to your dataset and the season selected. E.g.
 
-    python3 neural_network.py ./data/join/summer_data.csv
+    python3 neural3.py san_francisco summer
 
 Successful execution will save a model of the created neural network.
 
